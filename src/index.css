@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+table {
+    border: 5px solid black;
+    height: 675px;
+    width: 745px;
+    border-spacing: 0;
+    margin: auto;
+}
+
+.row1 td:first-child {
+    background-color: red;
+}
+
+.row1 td:last-child {
+    background-color: green;
+}
+
+.row10 td:first-child {
+    background-color: skyblue;
+}
+
+td {
+    border: 1px solid black;
+    height: 45px;
+    width: 45px;
+}
+
+.row10 td:last-child {
+    background-color: yellow;
+}
+
+.red-block,
+.green-block,
+.blue-block,
+.yellow-block {
+    border: 2px solid black;
+    margin: 30px;
+    padding: 25px;
+    background-color: white;
+}
+
+.circle-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.circle {
+    width: 5%;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.row7 td:nth-child(2),
+.row8 td:nth-child(2),
+.row8 td:nth-child(3),
+.row8 td:nth-child(4),
+.row8 td:nth-child(5),
+.row8 td:nth-child(6) {
+    background-color: red;
+}
+
+.row2 td:nth-child(2),
+.row3 td:nth-child(2),
+.row4 td:nth-child(2),
+.row5 td:nth-child(2),
+.row6 td:nth-child(2),
+.row2 td:nth-child(3) {
+    background-color: green;
+}
+
+.row14 td:nth-child(1),
+.row14 td:nth-child(2),
+.row13 td:nth-child(2),
+.row12 td:nth-child(2),
+.row11 td:nth-child(2),
+.row10 td:nth-child(3) {
+    background-color: skyblue;
+}
+
+.row9 td:nth-child(11),
+.row8 td:nth-child(11),
+.row8 td:nth-child(10),
+.row8 td:nth-child(9),
+.row8 td:nth-child(8),
+.row8 td:nth-child(7) {
+    background-color: yellow;
+}
+
+.dice {
+    height: 145px;
+    width: 145px;
+    display: none;
+}
+
+.blue-dice,
+.red-dice,
+.green-dice,
+.yellow-dice {
+    position: absolute;
+}
+
+.blue-dice {
+    bottom: 15%;
+    left: 7%;
+}
+
+.red-dice {
+    top: 0%;
+    left: 7%;
+}
+
+.green-dice {
+    top: 0%;
+    right: 7%;
+}
+
+.yellow-dice {
+    bottom: 15%;
+    right: 7%;
+}
