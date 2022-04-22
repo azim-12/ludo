@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ludo/static/css/main.705adc4f.css",
+    "main.js": "/ludo/static/js/main.8252546f.js",
+    "static/js/787.a7b3101a.chunk.js": "/ludo/static/js/787.a7b3101a.chunk.js",
+    "index.html": "/ludo/index.html",
+    "main.705adc4f.css.map": "/ludo/static/css/main.705adc4f.css.map",
+    "main.8252546f.js.map": "/ludo/static/js/main.8252546f.js.map",
+    "787.a7b3101a.chunk.js.map": "/ludo/static/js/787.a7b3101a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.705adc4f.css",
+    "static/js/main.8252546f.js"
+  ]
+}
